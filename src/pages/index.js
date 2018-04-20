@@ -135,7 +135,7 @@ class Index extends React.Component {
 
   handleSearch = e => {
     if (e.keyCode == 13) {
-      fetch('http://localhost:8080/?query=' + e.target.value)
+      fetch('http://lechorage.com:8080/?query=' + e.target.value)
         .then((response) => response.json())
         .then((responseJson) => {
           this.setState({ data: responseJson })
