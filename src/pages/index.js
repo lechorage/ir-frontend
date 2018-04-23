@@ -154,7 +154,7 @@ class Index extends React.Component {
           <AppBar position="static" color="primary">
             <Toolbar>
               <Typography variant="title" style={styles.primaryText} className={classes.flex}>
-                Yelp Search Enhencement
+                Yelp Review Search
           </Typography>
             </Toolbar>
           </AppBar>
